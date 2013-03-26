@@ -1,50 +1,106 @@
 body
 {
-background-color: #F5F5F5;
-background-repeat: repeat;
+background-color: #D1D1D1;
+text-align: center;
 }
-div
+#container
 {
+position: relative;
+width: 1120px;
 margin: 0px auto;
+text-align: left;
 }
 #logo
 {
-height: 200px;
 width: 1120px;
+margin: 0 0 5px 0;
 }
-hr
+img
 {
-height: 20px;
+border-radius:15px;
+}
+#navigation
+{
 width: 1120px;
-background-color: gray;
+height: 32px;
+font-family: Arial;
+font-size: 100%;
+background: url(navigation.jpg) repeat-x;
 }
-#main
+#navigation ul
 {
-background-color: white;
-width: 1120px;
-height: 1000px;
-border-style: solid;
+list-style-type: none;
+margin: 0px;
+padding: 0px 0px;
 }
-div.essay
+#navigation li
 {
-background-color: #FFEFDB;
-border: 3px outset #F0FFF0;
-margin: 20px;
+float: left;
+margin: 0px;
+padding: 0px 0px;
 }
-div.title
+#navigation li a
+{
+display:block;
+width: 140px;
+height: 22px;
+text-align: center;
+padding: 5px 0px;
+text-decoration: underline;
+margin: 0px 0px;
+background: url(navigation.jpg) no-repeat;
+}
+#navigation li a:link
+{
+}
+#navigation li a:visited
+{
+}
+#navigation li a:hover
+{
+color: #ffffff;
+text-decoration: underline;
+background: url(navigation-hover.jpg) no-repeat;
+}
+p.name
+{
+font-family: 华文行楷 黑体;
+font-weight: bold;
+font-size: 150%;
+font-color: #4F94CD;
+}
+p.title
 {
 text-align: left;
-font-family: FZShuTi;
-font-weight: bold;
 font-size: 200%;
+font-weight: bold;
 }
-div.date
+p.date
 {
 text-align: left;
 font-size: 150%;
 }
-div.text
+p.essay
 {
 text-align: left;
-font-family: STKaiti;
+}
+span.ahead
+{
+font-weight: bold;
+font-size: 120%;
+letter-spacing: 5px;
+}
+.content
+{
+background-color: white;
+position: relative;
+width: 1120px;
+height: 500px;
+margin: 5px 1px;
+}
+{
+width: 80%;
+height: 120%;
+float: left;
+background: url(background-2.jpg) repeat;
 }
