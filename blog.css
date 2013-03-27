@@ -64,7 +64,7 @@ background: url(navigation-hover.jpg) no-repeat;
 }
 p.name
 {
-font-family: 华文行楷 黑体;
+font-family: 禄陋脦脛脨脨驴卢 潞脷脤氓;
 font-weight: bold;
 font-size: 150%;
 font-color: #4F94CD;
@@ -95,12 +95,18 @@ letter-spacing: 5px;
 background-color: white;
 position: relative;
 width: 1120px;
-height: 500px;
 margin: 5px 1px;
 }
+#myself
 {
 width: 80%;
 height: 120%;
 float: left;
 background: url(background-2.jpg) repeat;
+}
+#article
+{
+	width: 1120px;
+	background-color: white;
+	
 }
