@@ -1,10 +1,29 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
 <html>
 <head>
+	<link rel = "stylesheet" type = "text/css" href = "blog.css" />
 	<meta http-equiv = "content-type" content = "text/html; charset = utf-8" />
 	<title>{{ page.title }}</title>
 </head>
+
 <body>
-	{{ content }}
+	<div id = "container">
+		<div id = "logo">
+			<img src = "title.png"/>
+		</div>
+		<div id = "navigation">
+			<ul>
+				<li><a href = "index.html">Home</a></li>
+				<li><a href = "article.html">Journal</a></li>
+				<li><a href = "myself.html">Myself</a></li>
+				<li><a href = "#">More</a></li>
+				<li><a href = "#">Message Borad</a></li>
+			</ul>
+		</div>
+		<div id = "article">       /*文章*/
+			{{ content }}
+		</div>
+	</div>
 </body>
 </html>

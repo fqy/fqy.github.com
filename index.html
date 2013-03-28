@@ -1,12 +1,29 @@
----
-layout: default
-title: 我的blog
----
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 
-<h2> {{ page.title }} </h2>
-<p> 最新文章 </p>
-<ul>
-	{% for post in site.posts %}
-	<li> {{ post.date | date_to_string }} <a href = "{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-	{% endfor %}
-</ul>
+<html>
+<head>
+	<title> Tsubasa </title>
+	<link rel = "stylesheet" type = "text/css" href = "blog.css" />
+</head>
+
+<body>
+
+	<div id = "container">
+		<div id = "logo">
+			<img src = "title.png"/>
+		</div>
+		<div id = "navigation">
+			<ul>
+				<li><a href = "index.html">Home</a></li>
+				<li><a href = "article.html">Journal</a></li>
+				<li><a href = "myself.html">Myself</a></li>
+				<li><a href = "#">More</a></li>
+				<li><a href = "#">Message Borad</a></li>
+			</ul>
+		</div>
+		<div class = "content">
+		</div>
+	</div>
+
+</body>
+</html>
