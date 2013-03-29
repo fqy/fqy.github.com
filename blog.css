@@ -25,7 +25,7 @@ width: 1120px;
 height: 32px;
 font-family: Arial;
 font-size: 100%;
-background: url(navigation.jpg) repeat-x;
+background: url(/navigation.jpg) repeat-x;
 }
 #navigation ul
 {
@@ -48,7 +48,7 @@ text-align: center;
 padding: 5px 0px;
 text-decoration: underline;
 margin: 0px 0px;
-background: url(navigation.jpg) no-repeat;
+background: url(/navigation.jpg) no-repeat;
 }
 #navigation li a:link
 {
@@ -60,7 +60,7 @@ background: url(navigation.jpg) no-repeat;
 {
 color: #ffffff;
 text-decoration: underline;
-background: url(navigation-hover.jpg) no-repeat;
+background: url(/navigation-hover.jpg) no-repeat;
 }
 p.name
 {
@@ -102,7 +102,7 @@ margin: 5px 1px;
 width: 80%;
 height: 120%;
 float: left;
-background: url(background-2.jpg) repeat;
+background: url(/background-2.jpg) repeat;
 }
 #article
 {
