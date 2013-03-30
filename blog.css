@@ -112,15 +112,22 @@ margin: 5px 1px;
 }
 .myself
 {
-width: 80%;
-height: 120%;
+width: 1120px;
 float: left;
-background: url(/background-2.jpg) repeat;
+background: white;
+}
+.fqy-picture
+{
+	width: 150px;
+	height: 600px;
+	float: left;
+	margin: 10px 20px 10px 10px;
 }
 .article
 {
 	width: 1120px;
 	background-color: white;
+	padding: 10px;
 	
 }
 .footer
@@ -129,7 +136,7 @@ background: url(/background-2.jpg) repeat;
 	text-align: center;
 	width: 1120px;
 	border-top: 1px solid black;
-	padding: 5px auto;
-	margin: 5px auto;
+	padding: 10px auto;
+	margin: 20px auto;
 	background: transparent;
 }
