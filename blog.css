@@ -63,6 +63,10 @@ color: #ffffff;
 text-decoration: underline;
 background: url(/navigation-hover.jpg) no-repeat;
 }
+p
+{
+	font-family: Arial,serif;
+}
 p.name
 {
 font-family: 华文行楷;
@@ -70,20 +74,21 @@ font-weight: bold;
 font-size: 150%;
 font-color: #4F94CD;
 }
-p.title
+p.title, h1.titile
 {
-text-align: left;
-font-size: 200%;
-font-weight: bold;
+	font-size: 200%;
+	font-weight: bold;
+	color: #36648B;
+	font-family: 幼圆, sans-serif;
 }
 p.date
 {
-text-align: left;
-font-size: 150%;
+	font-size: 150%;
+	font-family: 宋体, sans-serif;
 }
 p.essay
 {
-text-align: left;
+	font-size: 100%;
 }
 span.ahead
 {
