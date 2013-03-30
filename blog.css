@@ -107,11 +107,12 @@ margin: 5px 1px;
 {
 	padding-left: 10px; 
 	padding-top: 10px;
+	float: left;
 }
 .article-show
 {
 	width: 600px;
-	height: 300px;
+	height: 200px;
 	overflow: hidden;
 	padding-bottom: 20px;
 	border-bottom: 5px solid #FAEBD7;
@@ -120,7 +121,7 @@ margin: 5px 1px;
 {
 	border: 0 1px 0 0;
 	width: 300px;
-	border-left: 1px dashed #A4D3EE;
+	border-left: 1px dashed #8B7B8B;
 	padding: 20px 5px;
 	float: right;
 	margin: 10px 0;
