@@ -1,37 +1,12 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+---
+layout: home
+title: Tsubasa
+---
 
-<html>
-<head>
-	<title> Tsubasa </title>
-	<link rel = "stylesheet" type = "text/css" href = "/blog.css" />
-	<meta http-equiv = "content-type" content = "text/html; charset = utf-8" />
-</head>
-
-<body>
-
-	<div class = "container">
-		<div class = "logo">
-			<img src = "/title.png"/>
-		</div>
-		<div class = "navigation">
-			<ul>
-				<li><a href = "/index.html">Home</a></li>
-				<li><a href = "/article.html">Journal</a></li>
-				<li><a href = "/myself.html">fqy</a></li>
-				<li><a href = "#">More</a></li>
-				<li><a href = "#">Message Borad</a></li>
-			</ul>
-		</div>
-		<div class = "content">
-			<div class = "me">
-				<img src = "/head.jpg"/ class = "head-picture">
-				<p class = "name"> 羽-fqy </p>
-			</div>
-		</div>
-		<div class = "footer">
-			My MicroBlog: <a href="http://weibo.com/tsubasafqy"> 羽-fqy </a>
-		</div>
-	</div>
-
-</body>
-</html>
+<h1>最新文章</h1>
+{% for post in site.posts limit:2 %}
+<div class = "article-show">
+	<p class = "title"><a href="{{ post.url }}">{{ post.title }}</a></p>
+	{{ post.content }}
+</div>
+{% endfor %}
