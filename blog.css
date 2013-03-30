@@ -100,11 +100,15 @@ margin: 5px 1px;
 }
 .me
 {
-	border: 0 1px 1px 0;
-	border-right: 1px dashed #C0FF3E;
-	border-bottom: 1px dashed #C0FF3E;
+	border: 0 1px 0 0;
+	border-left: 1px dashed #FFFF00;
 	padding: 20px 5px;
 	float: right;
+}
+.head-picture
+{
+	width: 200px;
+	height: 100px;
 }
 .myself
 {
@@ -119,4 +123,12 @@ background: url(/background-2.jpg) repeat;
 	background-color: white;
 	
 }
-.
+.footer
+{
+	clear: both;
+	text-align: center;
+	border: 1px solid black;
+	padding: 5px auto;
+	margin: 5px auto;
+	opacity: 0; 
+}
