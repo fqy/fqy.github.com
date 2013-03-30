@@ -3,14 +3,14 @@ body
 background-color: #D1D1D1;
 text-align: center;
 }
-#container
+.container
 {
 position: relative;
 width: 1120px;
 margin: 0px auto;
 text-align: left;
 }
-#logo
+.logo
 {
 width: 1120px;
 margin: 0 0 5px 0;
@@ -19,27 +19,28 @@ img
 {
 border-radius:15px;
 }
-#navigation
+.navigation
 {
 width: 1120px;
 height: 32px;
 font-family: Arial;
 font-size: 100%;
 background: url(/navigation.jpg) repeat-x;
+margin: 5px 0;
 }
-#navigation ul
+.navigation ul
 {
 list-style-type: none;
 margin: 0px;
 padding: 0px 0px;
 }
-#navigation li
+.navigation li
 {
 float: left;
 margin: 0px;
 padding: 0px 0px;
 }
-#navigation li a
+.navigation li a
 {
 display:block;
 width: 140px;
@@ -50,13 +51,13 @@ text-decoration: underline;
 margin: 0px 0px;
 background: url(/navigation.jpg) no-repeat;
 }
-#navigation li a:link
+.navigation li a:link
 {
 }
-#navigation li a:visited
+.navigation li a:visited
 {
 }
-#navigation li a:hover
+.navigation li a:hover
 {
 color: #ffffff;
 text-decoration: underline;
@@ -97,16 +98,25 @@ position: relative;
 width: 1120px;
 margin: 5px 1px;
 }
-#myself
+.me
+{
+	border: 0 1px 1px 0;
+	border-right: 1px dashed #C0FF3E;
+	border-bottom: 1px dashed #C0FF3E;
+	padding: 20px 5px;
+	float: right;
+}
+.myself
 {
 width: 80%;
 height: 120%;
 float: left;
 background: url(/background-2.jpg) repeat;
 }
-#article
+.article
 {
 	width: 1120px;
 	background-color: white;
 	
 }
+.
