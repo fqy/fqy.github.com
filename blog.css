@@ -107,21 +107,25 @@ margin: 5px 1px;
 {
 	padding-left: 10px; 
 	padding-top: 10px;
+}
+.new-article
+{
+	width: 750;
 	float: left;
+	border-right: 1px dashed #8B7B8B;
 }
 .article-show
 {
 	width: 600px;
 	height: 200px;
 	overflow: hidden;
-	padding-bottom: 20px;
+	padding: 20px;
 	border-bottom: 5px solid #FAEBD7;
 }
 .me
 {
 	border: 0 1px 0 0;
 	width: 300px;
-	border-left: 1px dashed #8B7B8B;
 	padding: 20px 5px;
 	float: right;
 	margin: 10px 0;
@@ -151,6 +155,6 @@ background: white;
 	width: 1120px;
 	border-top: 1px solid black;
 	padding-top: 10px;
-	margin: 20px auto;
+	margin-top: 10px;
 	background: transparent;
 }
