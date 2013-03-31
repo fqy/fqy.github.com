@@ -110,7 +110,7 @@ margin: 5px 1px;
 }
 .new-article
 {
-	width: 750;
+	width: 780px;
 	float: left;
 	border-right: 1px dashed #8B7B8B;
 }
@@ -121,10 +121,11 @@ margin: 5px 1px;
 	overflow: hidden;
 	padding: 20px;
 	border-bottom: 5px solid #FAEBD7;
+	margin: 0 0 10px 0;
 }
 .me
 {
-	border: 0 1px 0 0;
+	border: 0 0 0 0;
 	width: 300px;
 	padding: 20px 5px;
 	float: right;
@@ -139,6 +140,7 @@ margin: 5px 1px;
 {
 width: 1120px;
 float: left;
+margin: 0;
 background: white;
 }
 .fqy-picture
