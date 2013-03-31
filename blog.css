@@ -51,7 +51,7 @@ width: 140px;
 height: 22px;
 text-align: center;
 padding: 5px 0px;
-text-decoration: underline;
+text-decoration: none;
 margin: 0px 0px;
 background: url(/navigation.jpg) no-repeat;
 }
@@ -76,14 +76,23 @@ p.name
 font-family: 华文行楷;
 font-weight: bold;
 font-size: 150%;
-font-color: #4F94CD;
+color: #4F94CD;
 }
-p.title, h1.titile
+p.title
 {
 	font-size: 200%;
 	font-weight: bold;
 	color: #36648B;
 	font-family: 幼圆, sans-serif;
+}
+p.title a
+{
+	text-decoration: none;
+}
+p.title a:hover
+{
+	text-decoration: underline;
+	color: #7FFFD4;
 }
 p.date
 {
