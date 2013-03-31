@@ -3,6 +3,10 @@ body
 background-color: #D1D1D1;
 text-align: center;
 }
+div
+{
+	margin: 0;
+}
 .container
 {
 position: relative;
@@ -113,6 +117,7 @@ margin: 5px 1px;
 	width: 780px;
 	float: left;
 	border-right: 1px dashed #8B7B8B;
+	margin-bottom: 5px;
 }
 .article-show
 {
