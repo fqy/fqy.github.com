@@ -144,8 +144,7 @@ margin: 5px 1px;
 .myself
 {
 width: 1120px;
-float: left;
-margin: 0;
+margin-bottom: 10px;
 background: white;
 }
 .fqy-picture
