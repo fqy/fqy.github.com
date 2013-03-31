@@ -6,7 +6,7 @@ title: Tsubasa
 <h1>最新文章</h1>
 {% for post in site.posts limit:2 %}
 <div class = "article-show">
-	<p class = "title"><a href="{{ post.url }}">{{ post.title }}</a></p>
+	<p class = "title-show"><a href="{{ post.url }}">{{ post.title }}</a></p>
 	{{ post.content }}
 </div>
 {% endfor %}

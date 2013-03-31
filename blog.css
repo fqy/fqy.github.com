@@ -78,18 +78,22 @@ font-weight: bold;
 font-size: 150%;
 color: #4F94CD;
 }
-p.title
+p.title-show, p.title
 {
-	font-size: 200%;
+	font-size: 180%;
 	font-weight: bold;
 	color: #36648B;
 	font-family: 幼圆, sans-serif;
 }
-p.title a
+p.title
+{
+	font-size: 105%;
+}
+p.title-show a, p.title a, p.name a
 {
 	text-decoration: none;
 }
-p.title a:hover
+p.title-show a:hover, p.title a:hover
 {
 	text-decoration: underline;
 	color: #7FFFD4;
