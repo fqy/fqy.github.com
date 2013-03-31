@@ -105,7 +105,7 @@ letter-spacing: 5px;
 background-color: transparent;
 position: relative;
 width: 1120px;
-margin: 5px 1px;
+margin: 10px auto;
 }
 .new-article, .article
 {
@@ -124,7 +124,7 @@ margin: 5px 1px;
 	width: 600px;
 	height: 200px;
 	overflow: hidden;
-	padding: 20px;
+	padding-left: 10px;
 	border-bottom: 5px solid #FAEBD7;
 	margin: 0 0 10px 0;
 }
