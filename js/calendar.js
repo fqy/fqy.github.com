@@ -14,7 +14,7 @@ function calendar()
 	var d = 1;     //累计第几天并写在日历
 	var i = 0;     //用于计数
 	//write日历
-	document.write("<table>");
+	document.write("<table style = 'background-color: blue;'>");
 	document.write("<tr>");
 	document.write("<th scope = 'col'>MON</th>");
 	document.write("<th scope = 'col'>TUE</th>");
