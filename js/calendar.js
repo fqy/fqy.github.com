@@ -5,7 +5,7 @@ function calendar()
 	var week = today.getDay();       //获取today是星期几
 	var day = today.getDate();       //获取today是几号
 	var month = today.getMonth() + 1;       //获取today所在月份是几月
-	var year = today.geyFullYear();         //获取today所在年份是哪一年，返回四位数字
+	var year = today.getFullYear();         //获取today所在年份是哪一年，返回四位数字
 	var m = new Array(31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31);       //数组，存储一年每个月份的天数
 	if(((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0)) m[1] = 29;   //判断今年是否为闰年，并确定是否更改2月的天数
 	var day_number = m[month-1];                //这个月的天数
