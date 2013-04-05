@@ -14,7 +14,7 @@ function calendar()
 	var d = 1;     //累计第几天并写在日历
 	var i = 0;     //用于计数
 	//write日历
-	document.write("<table id = 'test'>");
+	document.write("<table>");
 	document.write("<tr>");
 	document.write("<th scope = 'col'>Monday</th>");
 	document.write("<th scope = 'col'>Tuesday</th>");
@@ -32,7 +32,8 @@ function calendar()
 	}
 	for(i = first_day; i < 7; i ++)
 	{
-		document.write("<td>" + d + "</td>");
+		if(d == day) document.write("<td><p>" + d + "</p></td>");
+		else document.write("<td>" + d + "</td>");
 		d ++;
 	}
 	document.write("</tr>")
@@ -42,7 +43,8 @@ function calendar()
 		document.write("<tr>")
 		for(var k = 0; k < 7; k ++)
 		{
-			document.write("<td>" + d + "</td>");
+			if(d == day) document.write("<td><p>" + d + "</p></td>");
+			else document.write("<td>" + d + "</td>");
 			d ++;
 		}
 		document.write("</tr>");
@@ -51,7 +53,8 @@ function calendar()
 	document.write("<tr>");
 	for(i = 0; i < last_day + 1; i ++)
 	{
-		document.write("<td>" + d + "</td>");
+		if(d == day) document.write("<td><p>" + d + "</p></td>");
+		else document.write("<td>" + d + "</td>");
 		d ++;
 	}
 	for(i = last_day + 1; i < 7; i ++)

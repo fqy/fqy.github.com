@@ -83,7 +83,7 @@ p.title-show, p.title
 	font-size: 180%;
 	font-weight: bold;
 	color: #36648B;
-	font-family: 幼圆, sans-serif;
+	font-family: 幼圆,宋体, sans-serif;
 }
 p.title
 {
@@ -148,6 +148,27 @@ margin: 10px auto;
 	padding: 20px 5px;
 	float: right;
 	margin: 10px 0;
+}
+.calendar
+{
+	text-align: center;
+}
+.calendar table
+{
+	border: 1px solid black;
+	margin: 5px auto;
+	font-family: Arial;
+	text-align: center;
+}
+.calendar table th
+{
+	background-color: #7bb3ff;
+	font-family: 楷体;
+	font-weight: bold;
+}
+.calendar table td p
+{
+	color: #FF0000;
 }
 .head-picture
 {
