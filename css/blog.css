@@ -1,0 +1,178 @@
+body
+{
+background-color: #D1D1D1;
+text-align: center;
+}
+div
+{
+	margin: 0;
+}
+.container
+{
+position: relative;
+width: 1120px;
+margin: 0px auto;
+text-align: left;
+}
+.logo
+{
+width: 1120px;
+margin: 0 0 5px 0;
+}
+img
+{
+border-radius:15px;
+}
+.navigation
+{
+width: 1120px;
+height: 32px;
+font-family: Arial;
+font-size: 100%;
+background: url(/navigation.jpg) repeat-x;
+margin: 5px 0;
+}
+.navigation ul
+{
+list-style-type: none;
+margin: 0px;
+padding: 0px 0px;
+}
+.navigation li
+{
+float: left;
+margin: 0px;
+padding: 0px 0px;
+}
+.navigation li a
+{
+display:block;
+width: 140px;
+height: 22px;
+text-align: center;
+padding: 5px 0px;
+text-decoration: none;
+margin: 0px 0px;
+background: url(/navigation.jpg) no-repeat;
+}
+.navigation li a:link
+{
+}
+.navigation li a:visited
+{
+}
+.navigation li a:hover
+{
+color: #ffffff;
+text-decoration: underline;
+background: url(/navigation-hover.jpg) no-repeat;
+}
+p
+{
+	font-family: Arial,serif;
+}
+p.name
+{
+font-family: 华文行楷;
+font-weight: bold;
+font-size: 150%;
+color: #4F94CD;
+}
+p.title-show, p.title
+{
+	font-size: 180%;
+	font-weight: bold;
+	color: #36648B;
+	font-family: 幼圆,宋体, sans-serif;
+}
+p.title
+{
+	font-size: 105%;
+}
+p.title-show a, p.title a, p.name a
+{
+	text-decoration: none;
+}
+p.title-show a:hover, p.title a:hover
+{
+	text-decoration: underline;
+	color: #7FFFD4;
+}
+p.date
+{
+	font-size: 150%;
+	font-family: 宋体, sans-serif;
+}
+p.essay
+{
+	font-size: 100%;
+}
+span.ahead
+{
+font-weight: bold;
+font-size: 120%;
+letter-spacing: 5px;
+}
+.content
+{
+background-color: transparent;
+position: relative;
+width: 1120px;
+margin: 10px auto;
+}
+.new-article, .article
+{
+	padding-left: 10px; 
+	padding-top: 10px;
+}
+.new-article
+{
+	width: 780px;
+	float: left;
+	border-right: 1px dashed #8B7B8B;
+	margin-bottom: 5px;
+}
+.article-show
+{
+	width: 600px;
+	height: 200px;
+	overflow: hidden;
+	padding-left: 10px;
+	border-bottom: 5px solid #FAEBD7;
+	margin: 0 0 10px 0;
+}
+.me
+{
+	border: 0 0 0 0;
+	width: 300px;
+	padding: 20px 5px;
+	float: right;
+	margin: 10px 0;
+}
+.head-picture
+{
+	width: 200px;
+	height: 100px;
+}
+.myself
+{
+width: 1120px;
+margin-bottom: 10px;
+}
+.fqy-picture
+{
+	width: 150px;
+	height: 600px;
+	float: left;
+	margin: 0 20px 10px 10px;
+}
+.footer
+{
+	clear: both;
+	text-align: center;
+	width: 1120px;
+	border-top: 1px solid black;
+	padding-top: 10px;
+	margin-top: 10px;
+	background: transparent;
+}
