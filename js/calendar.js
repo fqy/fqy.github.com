@@ -16,13 +16,13 @@ function calendar()
 	//write日历
 	document.write("<table>");
 	document.write("<tr>");
-	document.write("<th scope = 'col'>Monday</th>");
-	document.write("<th scope = 'col'>Tuesday</th>");
-	document.write("<th scope = 'col'>Wednesday</th>");
-	document.write("<th scope = 'col'>Thursday</th>");
-	document.write("<th scope = 'col'>Friday</th>");
-	document.write("<th scope = 'col'>Saturday</th>");
-	document.write("<th scope = 'col'>Sunday</th>");
+	document.write("<th scope = 'col'>MON</th>");
+	document.write("<th scope = 'col'>TUE</th>");
+	document.write("<th scope = 'col'>WED</th>");
+	document.write("<th scope = 'col'>THU</th>");
+	document.write("<th scope = 'col'>FRI</th>");
+	document.write("<th scope = 'col'>SAT</th>");
+	document.write("<th scope = 'col'>SUN</th>");
 	document.write("</tr>");
 	//write第一周
 	document.write("<tr>");

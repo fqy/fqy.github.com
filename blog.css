@@ -165,10 +165,16 @@ margin: 10px auto;
 	background-color: #7bb3ff;
 	font-family: 楷体;
 	font-weight: bold;
+	text-align: center;
+}
+.calendar table td
+{
+	text-align: center;
 }
 .calendar table td p
 {
 	color: #FF0000;
+	background-color: red;
 }
 .head-picture
 {
