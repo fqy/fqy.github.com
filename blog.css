@@ -152,6 +152,7 @@ margin: 10px auto;
 .calendar
 {
 	text-align: center;
+	margin-top: 10px;
 }
 .calendar table
 {
@@ -174,7 +175,7 @@ margin: 10px auto;
 .calendar table td p
 {
 	color: #FF0000;
-	background-color: red;
+	border: 1px solid red;
 }
 .head-picture
 {
