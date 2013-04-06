@@ -22,7 +22,8 @@ function calendar()
 	//write第一周
 	for(c = first_day; c < 7; c ++)
 	{
-		cal.rows[r].cells[c].innerHTML = d;
+		if(d == day) cal.rows[r].cells[c].innerHTML = "<span id = today>" + d + "</span>";
+		else cal.rows[r].cells[c].innerHTML = d;
 		d ++;
 	}
 	r++;
@@ -31,7 +32,8 @@ function calendar()
 	{
 		for(c = 0; c < 7; c ++)
 		{
-			cal.rows[r].cells[c].innerHTML = d;
+			if(d == day) cal.rows[r].cells[c].innerHTML = "<span id = today>" + d + "</span>";
+			else cal.rows[r].cells[c].innerHTML = d;
 			d ++;
 		}
 		r++;
@@ -39,7 +41,8 @@ function calendar()
 	//write最后一周
 	for(c = 0; c < last_day + 1; c ++)
 	{
-		cal.rows[r].cells[c].innerHTML = d;
+		if(d == day) cal.rows[r].cells[c].innerHTML = "<span id = today>" + d + "</span>";
+		else cal.rows[r].cells[c].innerHTML = d;
 		d ++;
 	}
 }

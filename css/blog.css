@@ -113,6 +113,12 @@ font-weight: bold;
 font-size: 120%;
 letter-spacing: 5px;
 }
+span.today
+{
+	color: red;
+	font-weight: bold;
+	border: 1px solid black;
+}
 .content
 {
 background-color: transparent;
@@ -149,9 +155,21 @@ margin: 10px auto;
 	float: right;
 	margin: 10px 0;
 }
+.wall
+{
+
+}
 #calendar
 {
-	background-color: red;
+	text-align: center;
+}
+#calendar th
+{
+	font-family: 楷体;
+}
+#calendar td
+{
+	font-family: 幼圆;
 }
 .head-picture
 {
