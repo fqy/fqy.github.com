@@ -157,7 +157,7 @@ margin: 10px auto;
 	margin: 10px 0;
 }
 /* 日历 */
-.calendar
+.wall
 {
 	text-align: center;
 	margin-top: 10px;
@@ -165,7 +165,7 @@ margin: 10px auto;
 	height: 500px;
 	background-color: red;
 }
-.calendar table
+.wall table
 {
 	border: 1px solid black;
 	margin: 5px auto;
@@ -173,18 +173,18 @@ margin: 10px auto;
 	text-align: center;
 	background-color: blue;
 }
-.calendar table th
+.wall table th
 {
 	background-color: #7bb3ff;
 	font-family: 楷体;
 	font-weight: bold;
 	text-align: center;
 }
-.calendar table td
+.wall table td
 {
 	text-align: center;
 }
-.calendar table td p
+.wall table td p
 {
 	color: #FF0000;
 	border: 1px solid red;
