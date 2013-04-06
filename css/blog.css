@@ -161,6 +161,7 @@ margin: 10px auto;
 }
 #calendar
 {
+	margin-top: 10px;
 	text-align: center;
 }
 #calendar th
