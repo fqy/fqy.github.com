@@ -180,8 +180,9 @@ margin: 10px auto;
 	font-weight: bold;
 	text-align: center;
 }
-.wall table td
+#calendar td
 {
+	background-color: blue; 
 	text-align: center;
 }
 .wall table td p
