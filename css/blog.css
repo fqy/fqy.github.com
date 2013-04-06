@@ -63,7 +63,7 @@ background: url(/navigation.jpg) no-repeat;
 }
 .navigation li a:hover
 {
-color: #ffffff;
+color: #000000;
 text-decoration: underline;
 background: url(/navigation-hover.jpg) no-repeat;
 }
@@ -158,6 +158,7 @@ margin: 10px auto;
 .wall
 {
 	margin-top: 20px;
+	padding-top: 10px;
 }
 #calendar
 {
