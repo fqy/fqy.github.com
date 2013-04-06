@@ -149,6 +149,10 @@ margin: 10px auto;
 	float: right;
 	margin: 10px 0;
 }
+#calendar
+{
+	background-color: red;
+}
 .head-picture
 {
 	width: 200px;
