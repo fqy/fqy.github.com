@@ -1,35 +1,44 @@
+/* css文件 */
+
 body
 {
-background-color: #D1D1D1;
+background-color: white;
 text-align: center;
 }
 div
 {
 	margin: 0;
 }
+
+/* 大容器，包含所有 */
 .container
 {
 position: relative;
-width: 1120px;
+width: 75%;
 margin: 0px auto;
 text-align: left;
 }
+
+/* logo图 */
 .logo
 {
-width: 1120px;
-margin: 0 0 5px 0;
+float: right;
+margin: 0 5px 0 0;
 }
+/*
 img
 {
 border-radius:15px;
-}
+}*/
+
+/* 导航栏 */
 .navigation
 {
-width: 1120px;
-height: 32px;
+width: 70%;
+height: 2%;
 font-family: Arial;
 font-size: 100%;
-background: url(/navigation.jpg) repeat-x;
+background: url(/image/navigation.jpg) repeat-x;
 margin: 5px 0;
 }
 .navigation ul
@@ -53,7 +62,7 @@ text-align: center;
 padding: 5px 0px;
 text-decoration: none;
 margin: 0px 0px;
-background: url(/navigation.jpg) no-repeat;
+background: url(/image/navigation.jpg) no-repeat;
 }
 .navigation li a:link
 {
@@ -65,8 +74,10 @@ background: url(/navigation.jpg) no-repeat;
 {
 color: #000000;
 text-decoration: underline;
-background: url(/navigation-hover.jpg) no-repeat;
+background: url(/image/navigation-hover.jpg) no-repeat;
 }
+
+/* 相关段落字体 */
 p
 {
 	font-family: Arial,serif;
@@ -113,12 +124,16 @@ font-weight: bold;
 font-size: 120%;
 letter-spacing: 5px;
 }
+
+/* 今天的字体，用于日历 */
 #today
 {
 	color: red;
 	font-weight: bold;
 	border: 1px solid black;
 }
+
+/* 内容大框 */
 .content
 {
 background-color: transparent;
@@ -126,6 +141,8 @@ position: relative;
 width: 1120px;
 margin: 10px auto;
 }
+
+/* 文章div */
 .new-article, .article
 {
 	padding-left: 10px; 
@@ -147,6 +164,8 @@ margin: 10px auto;
 	border-bottom: 5px solid #FAEBD7;
 	margin: 0 0 10px 0;
 }
+
+/* 主页右侧栏 */
 .me
 {
 	border: 0 0 0 0;
@@ -160,6 +179,8 @@ margin: 10px auto;
 	margin-top: 20px;
 	padding-top: 10px;
 }
+
+/* 日历 */
 #calendar
 {
 	text-align: center;
@@ -172,16 +193,22 @@ margin: 10px auto;
 {
 	font-family: 幼圆;
 }
+
+/* 头像 */
 .head-picture
 {
 	width: 200px;
 	height: 100px;
 }
+
+/* 关于自己 */
 .myself
 {
 width: 1120px;
 margin-bottom: 10px;
 }
+
+/* 个人图片 */
 .fqy-picture
 {
 	width: 150px;
@@ -189,6 +216,8 @@ margin-bottom: 10px;
 	float: left;
 	margin: 0 20px 10px 10px;
 }
+
+/* 脚注 */
 .footer
 {
 	clear: both;
