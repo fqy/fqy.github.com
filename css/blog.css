@@ -34,7 +34,7 @@ border-radius:15px;
 /* 导航栏 */
 .navigation
 {
-width: 60%;
+width: 80%;
 height: 2%;
 font-family: Arial;
 font-size: 100%;
@@ -135,7 +135,7 @@ letter-spacing: 5px;
 {
 background-color: transparent;
 position: relative;
-width: 65%;
+width: 100%;
 margin: 10px auto;
 }
 
@@ -147,15 +147,15 @@ margin: 10px auto;
 }
 .new-article
 {
-	width: 33%;
+	width: 80%;
 	float: left;
 	border-right: 1px dashed #8B7B8B;
 	margin-bottom: 5px;
 }
 .article-show
 {
-	width: 40%;
-	height: 13%;
+	width: 80%;
+	height: 20%;
 	overflow: hidden;
 	padding-left: 10px;
 	border-bottom: 5px solid #FAEBD7;
@@ -194,22 +194,22 @@ margin: 10px auto;
 /* 头像 */
 .head-picture
 {
-	width: 0.4em;
-	height: 0.5em;
+	width: 50%;
+	height: 50%;
 }
 
 /* 关于自己 */
 .myself
 {
-width: 65%;
+width: 100%;
 margin-bottom: 10px;
 }
 
 /* 个人图片 */
 .fqy-picture
 {
-	width: 0.5em;
-	height: 0.75em;
+	width: 20%;
+	height: 40%;
 	float: left;
 	margin: 0 20px 10px 10px;
 }
@@ -219,7 +219,7 @@ margin-bottom: 10px;
 {
 	clear: both;
 	text-align: center;
-	width: 65%;
+	width: 100%;
 	border-top: 1px solid black;
 	padding-top: 10px;
 	margin-top: 10px;
