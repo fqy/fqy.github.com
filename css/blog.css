@@ -14,7 +14,7 @@ div
 .container
 {
 position: relative;
-width: 75%;
+width: 65%;
 margin: 0px auto;
 text-align: left;
 }
@@ -34,11 +34,10 @@ border-radius:15px;
 /* 导航栏 */
 .navigation
 {
-width: 70%;
+width: 60%;
 height: 2%;
 font-family: Arial;
 font-size: 100%;
-background: url(/image/navigation.jpg) repeat-x;
 margin: 5px 0;
 }
 .navigation ul
@@ -62,7 +61,6 @@ text-align: center;
 padding: 5px 0px;
 text-decoration: none;
 margin: 0px 0px;
-background: url(/image/navigation.jpg) no-repeat;
 }
 .navigation li a:link
 {
@@ -74,7 +72,6 @@ background: url(/image/navigation.jpg) no-repeat;
 {
 color: #000000;
 text-decoration: underline;
-background: url(/image/navigation-hover.jpg) no-repeat;
 }
 
 /* 相关段落字体 */
