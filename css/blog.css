@@ -73,6 +73,7 @@ margin: 0px 0px;
 .navigation li a:hover
 {
 color: #000000;
+background-color: white;
 text-decoration: underline;
 }
 
@@ -133,7 +134,6 @@ letter-spacing: 5px;
 /* 内容大框 */
 .content
 {
-	clear: both;
 background-color: transparent;
 position: relative;
 width: 100%;
