@@ -126,8 +126,6 @@ letter-spacing: 5px;
 #today
 {
 	color: red;
-	font-weight: bold;
-	border: 1px solid black;
 }
 
 /* 内容大框 */
@@ -174,7 +172,6 @@ margin: 10px auto;
 }
 .wall
 {
-	border:1px solid black;
 	margin-top: 20px;
 	padding-top: 10px;
 }
@@ -183,6 +180,7 @@ margin: 10px auto;
 #calendar
 {
 	text-align: center;
+	font-size: 0.8em;
 }
 #calendar th
 {
