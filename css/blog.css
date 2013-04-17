@@ -55,10 +55,12 @@ padding: 0px 0px;
 .navigation li a
 {
 display:block;
+width: 120px;
+height: 20px;
 text-align: center;
 padding: 5px 0px;
 text-decoration: none;
-margin: 0px 8px;
+margin: 0px 0px;
 }
 .navigation li a:link
 {
