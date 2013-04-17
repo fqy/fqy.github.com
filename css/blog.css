@@ -34,7 +34,6 @@ border-radius:15px;
 /* 导航栏 */
 .navigation
 {
-	clear: both;
 	width: 60%;
 font-family: Arial;
 font-size: 100%;
@@ -44,7 +43,7 @@ margin: 5px 0;
 {
 list-style-type: none;
 margin: 0px;
-margin-left: 10px;
+margin-left: 20px;
 padding: 0px 0px;
 }
 .navigation li
@@ -57,7 +56,7 @@ padding: 0px 0px;
 {
 display:block;
 border-radius: 30px;
-background-color: gray;
+background-color: #D4D4D4;
 width: 120px;
 height: 20px;
 text-align: center;
