@@ -58,7 +58,7 @@ display:block;
 text-align: center;
 padding: 5px 0px;
 text-decoration: none;
-margin: 0px 0px;
+margin: 0px 8px;
 }
 .navigation li a:link
 {
@@ -178,7 +178,7 @@ margin: 10px auto;
 #calendar
 {
 	text-align: center;
-	font-size: 0.9em;
+	font-size: 1em;
 }
 #calendar th
 {
