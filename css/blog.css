@@ -147,7 +147,7 @@ margin: 10px auto;
 }
 .new-article
 {
-	width: 80%;
+	width: 75%;
 	float: left;
 	border-right: 1px dashed #8B7B8B;
 	margin-bottom: 5px;
@@ -194,8 +194,6 @@ margin: 10px auto;
 /* 头像 */
 .head-picture
 {
-	width: 50%;
-	height: 50%;
 }
 
 /* 关于自己 */
