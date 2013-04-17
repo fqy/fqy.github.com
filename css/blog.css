@@ -14,7 +14,7 @@ div
 .container
 {
 position: relative;
-width: 65%;
+width: 60%;
 margin: 0px auto;
 text-align: left;
 }
@@ -170,7 +170,7 @@ margin: 10px auto;
 	width: 20%;
 	padding: 20px 5px;
 	float: right;
-	margin: 10px 0;
+	margin: 10px 10px;
 }
 .wall
 {
