@@ -2,11 +2,12 @@
 
 body
 {
-background-color: #CCCCFF;
+background-color: white;
 text-align: center;
 }
 div
 {
+	background-color: #CCCCFF;
 	margin: 0;
 }
 
