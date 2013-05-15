@@ -36,35 +36,29 @@ border-radius:15px;
 .navigation
 {
 	width: 60%;
-	height: 142px;
-font-family: Arial;
-font-size: 100%;
-margin: 5px 0;
+	height: 100px;
+	margin: 5px 0;
 }
 .navigation ul
 {
-list-style-type: none;
-margin: 0px;
-margin-left: 20px;
-padding: 0px 0px;
+	list-style-type: none;
+	margin: 0px;
+	margin-left: 20px;
+	padding: 0px 0px;
 }
 .navigation li
 {
-float: left;
-margin: 0px;
-padding: 0px 0px;
+	float: left;
+	margin: 0px;
+	padding: 0px 0px;
 }
 .navigation li a
 {
-display:block;
-border-radius: 30px;
-background-color: #D4D4D4;
-width: 120px;
-height: 20px;
-text-align: center;
-padding: 5px 0px;
-text-decoration: none;
-margin: 0px 0px;
+	display:block;
+	border-radius: 30px;
+	text-align: center;
+	padding: 5px 0px;
+	margin: 0px 0px;
 }
 .navigation li a:link
 {
@@ -74,9 +68,7 @@ margin: 0px 0px;
 }
 .navigation li a:hover
 {
-color: #000000;
-background-color: white;
-text-decoration: underline;
+	background-color: #99CCFF;
 }
 
 /* 相关段落字体 */
