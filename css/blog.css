@@ -55,9 +55,8 @@ border-radius:15px;
 .navigation li a
 {
 	display:block;
-	border-radius: 30px;
 	text-align: center;
-	padding: 5px 0px;
+	padding: 5px 20px;
 	margin: 0px 0px;
 }
 .navigation li a:link
