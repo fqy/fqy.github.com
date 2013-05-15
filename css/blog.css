@@ -1,4 +1,5 @@
-/* css文件 */
+/* 网页主要配色： #CCCCFF #FFFFFF #99CCFF */
+/* 总css文件 */
 
 body
 {
@@ -7,7 +8,6 @@ text-align: center;
 }
 div
 {
-	background-color: #CCCCFF;
 	margin: 0;
 }
 
