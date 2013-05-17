@@ -55,6 +55,7 @@ border-radius:15px;
 .navigation li a
 {
 	display:block;
+	border-radius: 15px;
 	text-align: center;
 	padding: 5px 20px;
 	margin: 0px 0px;
@@ -67,7 +68,7 @@ border-radius:15px;
 }
 .navigation li a:hover
 {
-	background-color: #99CCFF;
+	background-color: white;
 }
 
 /* 相关段落字体 */
